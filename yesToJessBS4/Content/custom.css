@@ -1,0 +1,34 @@
+﻿body {
+}
+
+.jumbotron {
+    background-image: url('../Images/jumbotronJ26.jpg');
+    
+}
+
+/* Lightbox  */
+.thumb {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding-top: 65px;
+    display: none;
+    overflow-x: scroll; /* This allows the lightbox to scroll down instead of the page scrolling behind it when the img drops below the fold */
+}
+
+    #lightbox-container p {
+        color: #fff;
+    }
+
+    #lightbox-container img {
+        border: 10px solid gray;
+        margin: auto;
+    }
