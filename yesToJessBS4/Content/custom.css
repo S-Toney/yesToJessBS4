@@ -3,8 +3,29 @@
 
 .jumbotron {
     background-image: url('../Images/jumbotronJ26.jpg');
-    
+    background-size: cover;
+    color: #74b690;
 }
+
+.push-height {
+    height: 400px;
+}
+
+figure {
+    margin: 3%;
+    /*border: 3px solid purple;*/
+    /*box-shadow: 7px 7px 7px rgba(96, 44, 136, .5);*/
+}
+
+    /* Image Collection Display */
+    figure .collectionImg {
+        /*margin: 7%;*/
+        display: inline-block;
+        /*width: auto;*/
+        width: 87%;
+        box-shadow: 7px 7px 7px rgba(96, 44, 136, .5);
+        /*border: 3px solid purple;*/
+    }
 
 /* Lightbox  */
 .thumb {
