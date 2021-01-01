@@ -1,4 +1,4 @@
-﻿///////////// Lightbox Code //////////////
+﻿/////////////// Lightbox Code //////////////
 //  When a user clicks on a thumbnail image, display the lightbox container and insert an <img> tag, and allow user to clock off the lightbox
 $(".thumb").on("click", function () {
 

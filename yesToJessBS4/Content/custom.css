@@ -11,18 +11,20 @@
     height: 400px;
 }
 
-figure {
-    margin: 3%;
+/*figure {
+    margin: 1%;
     /*border: 3px solid purple;*/
     /*box-shadow: 7px 7px 7px rgba(96, 44, 136, .5);*/
-}
+}*/
 
     /* Image Collection Display */
-    figure .collectionImg {
+    /*figure*/ 
+ .collectionImg {
+     margin: 1%;
         /*margin: 7%;*/
         display: inline-block;
         /*width: auto;*/
-        width: 87%;
+        width: 90%;
         box-shadow: 7px 7px 7px rgba(96, 44, 136, .5);
         /*border: 3px solid purple;*/
     }
