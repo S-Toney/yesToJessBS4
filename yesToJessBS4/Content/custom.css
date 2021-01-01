@@ -29,6 +29,44 @@
         /*border: 3px solid purple;*/
     }
 
+
+/*  Start Masonary Gallary  */
+.gal-item {
+    overflow: hidden;
+    padding: 8px;
+}
+
+    .gal-item .box {
+        height: 100%;
+        overflow: hidden;
+    }
+
+.box img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+.thumbnailImg {
+    width: auto;
+    height: 100%;
+    margin: 1%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.thumnnailImg95 {
+    width: auto;
+    height: 95%;
+    margin: 1%;
+    object-fit: cover;
+}
+
+.h-95 {
+    height: 95%;
+}
+/*  End Masonary Gallary  */
+
 /* Lightbox  */
 .thumb {
     cursor: pointer;
