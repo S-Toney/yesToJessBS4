@@ -5,30 +5,17 @@
     background-image: url('../Images/jumbotronJ26.jpg');
     background-size: cover;
     color: #74b690;
+    font-family: 'Dancing Script', cursive;
 }
 
 .push-height {
     height: 400px;
 }
 
-/*figure {
-    margin: 1%;
-    /*border: 3px solid purple;*/
-    /*box-shadow: 7px 7px 7px rgba(96, 44, 136, .5);*/
-}*/
-
-    /* Image Collection Display */
-    /*figure*/ 
- .collectionImg {
-     margin: 1%;
-        /*margin: 7%;*/
-        display: inline-block;
-        /*width: auto;*/
-        width: 90%;
-        box-shadow: 7px 7px 7px rgba(96, 44, 136, .5);
-        /*border: 3px solid purple;*/
-    }
-
+p .announce {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5em;
+}
 
 /*  Start Masonary Gallary  */
 .gal-item {
@@ -93,3 +80,4 @@
         border: 10px solid gray;
         margin: auto;
     }
+/*  End Lightbox  */
