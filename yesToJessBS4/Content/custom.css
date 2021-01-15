@@ -6,16 +6,25 @@
     background-size: cover;
     color: #74b690;
     font-family: 'Dancing Script', cursive;
+    font-size: 4em;
 }
 
 .push-height {
     height: 400px;
 }
 
-p .announce {
-    font-family: 'Roboto Slab', serif;
-    font-size: 2.5em;
+#announce {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
 }
+
+/* Start CTA Announcement */
+#dancingS {
+    font-family: 'Roboto Slab', serif;
+    text-align: center !important;
+    font-size: 2em;
+}
+/* Start CTA Announcement */
 
 /*  Start Masonary Gallary  */
 .gal-item {
